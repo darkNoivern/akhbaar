@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Fredericka+the+Great&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.active{
+    border-bottom: 2px solid white;
+    border-radius: 4px;
+}
+.flexy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ribbon{
+    width: 4rem;
+}
+.header{
+    height: 4rem !important;
+}
+
+.description{
+    height: 8rem;
+}
+
+.home-image img{
+    height: 12rem !important;
+}
+
+.background{
+    min-height: 90vh;
+    min-width: 98vw;
+}
+
+.no-news{
+    text-transform: capitalize;
+    font-family: 'Bree Serif', serif;
+    font-size: 3rem;
+    height: 3rem;
+}
+
+.no-news-background{
+    min-height: 75vh;
+    min-width: 98vw;
+}
+
+.banner{
+    text-transform: capitalize;
+    font-family: 'Bree Serif', serif;
+    font-size: 3rem;
+    height: 3rem;
+}
+
+.navbar-brand{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 2rem;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
